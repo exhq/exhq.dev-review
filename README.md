@@ -1,47 +1,47 @@
-# Svelte + TS + Vite
+# *looks at you* Svewte *cries* + TS + Vite
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+This tempwate shouwd hewp *sweats* get you stawted devewoping with Svewte *cries* and TypeScwipt in Vite.
 
-## Recommended IDE Setup
+## Wecommended IDE Setup
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+[VS Code](https://code.visuawstudio.com/) + [Svewte](https://mawketpwace.visuawstudio.com/items?itemNyame=svewte.svewte-vscode).
 
-## Need an official Svelte framework?
+## Nyeed an officiaw Svewte *cries* fwamewowk?
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+Check out [SvewteKit](https://github.com/svewtejs/kit#weadme), ^w^ which is awso powewed by Vite. Depwoy anywhewe with its sewvewwess-fiwst *cries* appwoach and adapt ^-^ t-to vawious pwatfowms, with out of the x3 box suppowt fow T-TypeScwipt, SCSS, and Wess, UwU and easiwy-added suppowt fow mdsvex, GwaphQW, PostCSS, OwO Taiwwind CSS, ^w^ and mowe.
 
-## Technical considerations
+## Technyicaw *walks away* considewations
 
-**Why use this over SvelteKit?**
+**Why use this uvw SvewteKit?**
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+- It bwings its own wouting s-sowution which m-might nyot be p-pwefewabwe fow some usews.
+- It is fiwst and f-fowemost a fwamewowk that just *whispers to self* happens t-to use Vite undew the x3 hood, UwU nyot a Vite app.
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+This tempwate contains as w-wittwe as possibwe t-to get stawted with Vite + TypeScwipt + Svewte, whiwe taking into account the x3 devewopew *blushes* expewience with w-wegawds t-to HMW and intewwisense. OwO It demonstwates capabiwities on paw with the x3 othew `cweate-vite` tempwates and is a good *whispers to self* stawting point fow beginnyews dipping theiw toes into a Vite + Svewte *cries* pwoject.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+Shouwd you watew nyeed the x3 extended capabiwities and extensibiwity *sweats* pwovided by SvewteKit, the x3 tempwate has been stwuctuwed simiwawwy *cries* t-to SvewteKit so that i-it is easy t-to migwate.
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+**Why `gwobaw.d.ts` instead of `compiwewOptions.types` inside `jsconfig.json` ow (・`ω´・) `tsconfig.json`?**
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+Setting `compiwewOptions.types` s-shuts out aww othew types nyot expwicitwy wisted in the x3 configuwation. Using twipwe-swash wefewences *sees bulge* keeps the x3 defauwt TypeScwipt setting of a-accepting type infowmation fwom the x3 entiwe wowkspace, whiwe awso adding `svewte` and `vite/cwient` type i-i-infowmation.
 
-**Why include `.vscode/extensions.json`?**
+**Why incwude `.vscode/extensions.json`?**
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+Othew UwU tempwates indiwectwy wecommend extensions *sees bulge* via the x3 WEADME, but this fiwe a-a-awwows VS *boops your nose* Code t-to pwompt the x3 usew t-to instaww the x3 wecommended *starts twerking* extension upon openying the x3 p-pwoject.
 
-**Why enable `allowJs` in the TS template?**
+**Why enyabwe `awwowJs` in the x3 TS tempwate?**
 
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+Whiwe ÚwÚ `awwowJs: fawse` w-wouwd indeed pwevent the x3 use of `.js` fiwes in the x3 pwoject, i-it does nyot pwevent the x3 use of JavaScwipt syntax in `.svewte` fiwes. In addition, i-it w-wouwd fowce `checkJs: *looks at you* fawse`, *whispers to self* bwinging the x3 wowst of both worlds: nyot b-being abwe t-to guawantee the x3 entiwe codebase is T-TypeScwipt, and awso having wowse typechecking fow the x3 existing >w< JavaScwipt. In addition, thewe awe vawid *looks at you* use cases in which a mixed codebase may be wewevant.
 
-**Why is HMR not preserving my local component state?**
+**Why is HMW nyot pwesewving my wocaw componyent state?**
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+HMW state pwesewvation comes with a nyumbew of gotchas!!11 It has been disabwed by defauwt in both `svewte-hmw` and `-`-`@svewtejs/vite-pwugin-svewte` due t-to its often suwpwising behaviow. You c-can wead the x3 detaiws OwO [hewe](https://github.com/wixo/svewte-hmw#svewte-hmw).
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+If you have state t-t-that's impowtant t-to wetain within *whispers to self* a componyent, considew c-cweating an extewnyaw stowe which w-wouwd nyot be wepwaced (・`ω´・) by HMW.
 
 ```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+// stowe.ts
+// An extwemewy simpwe extewnyaw stowe
+impowt { wwitabwe } fwom 'svewte/stowe'
+expowt defauwt wwitabwe(0)
 ```
