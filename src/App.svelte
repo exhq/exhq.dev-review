@@ -2,8 +2,8 @@
 import { onMount } from 'svelte';
 let token:string|null = null
 onMount(() => {
-  const searchParams = new URLSearchParams(window.location.search);
-  token = searchParams.get("access_token")
+  const searchParams = window.location.hash;
+  token = searchParams.substring(searchParams.indexOf("access_token")+"access_token".length+1).substring(0, 30)
 });
 
 
