@@ -9,7 +9,7 @@ onMount(() => {
 
 
 async function sendReview(review:string){
-  const url = new URL("https://review.exhq.dev/sendreview");
+  const url = new URL("https://api.review.exhq.dev/sendreview");
   url.searchParams.append("review", review);
   const authHeader = token;
   if (authHeader == null){
